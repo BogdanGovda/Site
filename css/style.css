@@ -1,0 +1,314 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	color: #ddd;
+	padding: 14px 16px;
+	font-size: 16px;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.container {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container .content {
+	font-size: 20px;
+	position: absolute;
+	bottom: 0; 
+	background: rgba(0, 0, 0, 0.5); 
+	color: #f1f1f1;
+	width: 100%;
+	padding: 25px;
+	text-align: right
+}
+
+a.get{
+	color: black;
+	font-size: 40px;
+	text-align: left;
+	position: relative;
+	max-width: 10px;
+		background-color: yellow;
+}
+a.get:hover {
+	background-color: #ddd;
+	color: black;}
+
+
+.about-section{
+	background-image: url(https://kafanews.com/new/images/v-feodosii-budet-priyut-dlya-shivotnykh_foto-iz-otkrytykh-istochnikov_1_2020-10-14-08-12-33.jpeg);
+	background-size: cover;
+	height: 500px;
+	margin-bottom: 200px;
+	box-shadow: 0 0 15px rgb(0 0 15px / 50%);
+}
+.about-section .content{
+	position: absolute;
+	left: 0;
+	color: black;
+	max-width: 500px;
+}
+.about {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.about-content {
+	position: relative;
+}
+
+h1{
+	font-weight: 400;
+	font-size: 55px;
+	font-family: sans-serif;
+	margin-bottom: 25px;
+}
+p{
+	font-size: 26px;
+	line-height: 34px;
+	font-weight: 400px;
+}
+.a-content button{
+	margin-top: 30px;
+	padding: 25px;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: sans-serif;
+	background-color: yellow;
+	border: none;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+.a-content button:hover{
+background-color: #ddd;
+	color: black;
+}
+.adoption-section{
+	text-align: center;
+	font-size: 60px;
+	font-family: cursive;
+}
+.adoption {
+	max-width: 1200px;
+	margin: 0 auto;}
+.menu-dog{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 25px;
+	margin: 30px;
+}
+
+.menu-dog-img {
+	overflow: hidden;
+	box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+	position: relative;}
+.dog{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: transform 0.9s;
+}
+.dog:hover{
+	transform: scale(1.3);}
+
+body {
+	max-width: 1100px;
+	margin: auto;
+	background-image: url(https://i.pinimg.com/474x/ed/a9/93/eda99368bbaa004e32f4a9704d9e88f9.jpg);
+}
+h2{
+	font-weight: 400;
+	font-size: 50px;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+	.hellp-section{
+	text-align: center;
+	font-size: 60px;
+	font-family: cursive;
+}
+p.p1{
+	font-size: 35px;
+	line-height: 34px;
+	font-weight: 400px;
+}
+.donat-content button{
+	margin-top: 30px;
+	padding: 25px;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: sans-serif;
+	background-color: yellow;
+	border: none;
+	border-radius: 4px;
+	transition: 0.3s;}
+.dog-face{
+		height: 10%;
+	width: 10%;
+}
+.donat-content button:hover{
+background-color: #ddd;
+	color: black;
+}
+div.donat-content{
+	font-weight:bold;
+}
+div.hellp{
+background-color: rgba(248, 247, 216, 0.7);
+}
+iframe{
+	width: 1100px;
+}
+
+.about-html-section{
+	background-color: rgba(248, 247, 216, 0.7);
+}
+.footer__navigation-link {
+ display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+
+ }
+
+	.footer {
+    position: relative;
+    margin-top: 40px;
+    padding-top: 30px;
+    background: #444;
+    color: #ffffff;}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    text-align:  center;
+}
+.col-4 {
+	    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    text-align: center;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+ }
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+	background: purple;
+	color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-skype {
+  background: #3B5998;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: yellow;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.footer-bottom-copyright {
+    text-align: right;
+    color: #fff;    
+    margin-left: 45px;
+
+ }
+.footer2 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.div-howhellp{
+	background-color: rgba(248, 247, 216, 0.7);
+}
+.adoption-list{
+	background-color: rgba(248, 247, 216, 0.7);
+}
+.animal-name{
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 2px;
+}
+.animal-info{
+	font-size: 20px;
+	color: #808080;
+}
+.animal-image{
+visibility: visible;
+    animation-name: fadeInLeft;}
+    
